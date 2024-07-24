@@ -121,4 +121,11 @@ body {
 
 .aboutme {
     max-width: 20rem; /* Adjust the max width as needed */
+    padding-bottom: 5rem;
+}
+
+.peptalk {
+    padding: 2rem;
+    max-width: 40rem;
+    text-align: left;
 }
