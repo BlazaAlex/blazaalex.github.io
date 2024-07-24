@@ -125,7 +125,8 @@ body {
 }
 
 .peptalk {
-    padding: 2rem;
+    display: flex;
+    padding-bottom: 2rem;
     max-width: 40rem;
     align-items: center;
     justify-content: center;
