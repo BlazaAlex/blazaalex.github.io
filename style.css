@@ -33,19 +33,6 @@ section {
     text-align: center;
 }
 
-section#home {
-    background: #f4f4f4;
-}
-
-section#cv a {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.5rem 1rem;
-    background: #333;
-    color: #fff;
-    text-decoration: none;
-}
-
 footer {
     background: #333;
     color: #fff;
