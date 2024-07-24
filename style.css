@@ -96,3 +96,7 @@ body {
 .cvword{
     justify-content: center;
 }
+
+.contact {
+    padding: 2rem;
+}
