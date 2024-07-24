@@ -125,13 +125,11 @@ body {
 }
 
 .peptalk {
-    display: flex;
-    padding-bottom: 2rem;
+    padding-left: 25rem;
+    padding-bottom: 4rem;
     max-width: 40rem;
-    align-items: center;
-    justify-content: center;
 }
 
-.peptalk p,h3 {
+.peptalk p {
     text-align: left;
 }
