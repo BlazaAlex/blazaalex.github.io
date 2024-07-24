@@ -106,7 +106,7 @@ body {
     align-items: flex-start;
 }
 
-.aboutme {
+.aboutme p{
     width: 5rem;
     height: 312px;
 }
