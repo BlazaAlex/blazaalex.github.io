@@ -93,7 +93,6 @@ body {
     background-color: #555;
 }
 
-#cvword {
-    text-align: center;
-    padding: 2rem;
+.cvword{
+    justify-content: center;
 }
