@@ -122,7 +122,3 @@ body {
 .aboutme {
     max-width: 20rem; /* Adjust the max width as needed */
 }
-
-.aboutme p {
-    margin: 0;
-}
