@@ -69,11 +69,14 @@ body {
 #cv {
     padding: 2rem 10%;
     background: #f9f9f9;
-    text-align: left;
 }
 
 #cv h2 {
     text-align: center;
+}
+
+#cv p {
+    text-align: left;
 }
 
 .btn {
@@ -91,5 +94,5 @@ body {
 }
 
 #cvword {
-    justify-content: center;
+    text-align: center;
 }
