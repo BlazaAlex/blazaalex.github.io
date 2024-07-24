@@ -127,5 +127,10 @@ body {
 .peptalk {
     padding: 2rem;
     max-width: 40rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.peptalk p,h3 {
     text-align: left;
 }
