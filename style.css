@@ -105,3 +105,8 @@ body {
     display: flex;
     align-items: flex-start;
 }
+
+.aboutme {
+    width: 5rem;
+    height: 312px;
+}
