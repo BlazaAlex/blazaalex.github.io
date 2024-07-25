@@ -156,3 +156,11 @@ body {
 .peptalk a {
     color: greenyellow;
 }
+
+.portfolio {
+    color: white;
+}
+
+.portfolio p {
+    color: lightgray;
+}
