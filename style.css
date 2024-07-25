@@ -25,7 +25,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #fff;
+    color: darkorange;
     text-decoration: none;
 }
 
@@ -42,6 +42,10 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+footer p {
+    color: darkorange;
 }
 
 /* Responsive Design */
@@ -98,8 +102,15 @@ body {
     justify-content: center;
 }
 
+/* other sites */
+
+#home {
+    color: white;
+}
+
 .contact {
     padding-left: 2rem;
+    color: white;
 }
 
 .container {
@@ -120,7 +131,12 @@ body {
     border-radius: 8px;
 }
 
+.aboutme_uvod {
+    color: white;
+}
+
 .aboutme {
+    color: white;
     max-width: 20rem; /* Adjust the max width as needed */
     padding-bottom: 5rem;
 }
@@ -135,4 +151,8 @@ body {
 .peptalk p {
     color: white;
     text-align: left;
+}
+
+.peptalk a {
+    color: greenyellow;
 }
