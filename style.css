@@ -1,6 +1,6 @@
 /* styles.css */
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('picodeTeide.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('picodeTeide.jpg'), no-repeat;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
@@ -106,7 +106,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
     gap: 2rem; /* Adjust the space between the photo and the text */
 }
 
@@ -127,11 +126,13 @@ body {
 }
 
 .peptalk {
+    color: white;
     padding-left: 25rem;
     padding-bottom: 4rem;
     max-width: 40rem;
 }
 
 .peptalk p {
+    color: white;
     text-align: left;
 }
