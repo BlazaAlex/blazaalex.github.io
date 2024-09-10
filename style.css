@@ -141,7 +141,7 @@ footer p {
 /* Media query for smaller devices */
 @media (max-width: 600px) {
     body {
-        background-size: contain; /* Adjusts the background size for smaller screens to prevent repeating */
+        background-size: cover;/* Adjusts the background size for smaller screens to prevent repeating */
         background-position: top center; /* Keeps the image centered but closer to the top */
     }
 }
@@ -206,6 +206,6 @@ footer p {
 
 .cv-container iframe {
     max-width: 100%;
-    height: auto;
+    min-height: auto;
     border: none;
 }
