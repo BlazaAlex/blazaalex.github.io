@@ -101,7 +101,7 @@ footer p {
     padding: 1.5rem;
     border-radius: 15px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-    margin: 2rem auto;
+    margin: 0 1rem; /* Center the container */
     text-align: left;
 }
 
@@ -149,6 +149,7 @@ footer p {
 /* Portfolio Section */
 .portfolio {
     color: white;
+    margin: 2rem auto;
 }
 
 .portfolio p {
