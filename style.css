@@ -100,7 +100,7 @@ footer p {
     max-width: 40rem; /* Adjust the width for better readability */
     padding: 1.5rem;
     border-radius: 15px; /* Rounded corners */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
     margin: 0 1rem; /* Center the container */
     text-align: left;
 }
@@ -111,7 +111,7 @@ footer p {
     max-width: 50rem;
     padding: 1.5rem;
     border-radius: 15px; /* Rounded corners */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin: 2rem auto;
     text-align: left;
 }
