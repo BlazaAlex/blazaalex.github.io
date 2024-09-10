@@ -206,6 +206,6 @@ footer p {
 
 .cv-container iframe {
     max-width: 100%;
-    min-height: auto;
+    height: auto;
     border: none;
 }
