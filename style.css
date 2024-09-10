@@ -137,6 +137,15 @@ footer p {
     background-color: #555;
 }
 
+/*Responsive background on smaller devices*/
+/* Media query for smaller devices */
+@media (max-width: 600px) {
+    body {
+        background-size: contain; /* Adjusts the background size for smaller screens to prevent repeating */
+        background-position: top center; /* Keeps the image centered but closer to the top */
+    }
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     header nav ul li {
@@ -157,6 +166,7 @@ footer p {
         padding-left: 0;
         text-align: center;
     }
+
 }
 
 @media (max-width: 480px) {
@@ -196,6 +206,6 @@ footer p {
 
 .cv-container iframe {
     max-width: 100%;
-    height: auto;
+    min-height: auto;
     border: none;
 }
