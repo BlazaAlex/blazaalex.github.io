@@ -155,6 +155,10 @@ footer p {
     color: lightgray;
 }
 
+.portfolio img{
+    width: auto;
+}
+
 /* Buttons */
 .btn {
     display: inline-block;
