@@ -1,12 +1,14 @@
-/* styles.css */
+/* Base Styles */
 body {
     background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('picodeTeide.jpg'), no-repeat;
+    background-size: cover; /* Ensure the background image covers the screen */
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
 }
 
+/* Header and Navigation */
 header {
     background: #333;
     color: #fff;
@@ -17,10 +19,13 @@ header {
 header nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Ensure items wrap on smaller screens */
 }
 
 header nav ul li {
-    display: inline;
     margin: 0 10px;
 }
 
@@ -34,56 +39,74 @@ section {
     text-align: center;
 }
 
+/* Footer */
 footer {
     background: #333;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-    position: fixed;
+    position: static;
     width: 100%;
-    bottom: 0;
 }
 
 footer p {
     color: darkorange;
 }
 
-/* Responsive Design */
-@media (max-width: 600px) {
-    header nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
-
-    footer {
-        position: static;
-    }
-}
-
-
-/* CV site only*/
-/* styles.css */
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-}
-
-#cv {
-    padding: 2rem 10%;
-    background: #f9f9f9;
-}
-
-#cv h2 {
-    text-align: center;
-}
-
-#cv p {
+/* Contact Section */
+.contact {
     padding-left: 2rem;
+    color: white;
 }
 
+/* Flexbox Layout for Profile (About Me Section) */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    gap: 2rem;
+}
+
+.photo {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.aboutme {
+    color: white;
+    max-width: 20rem;
+    padding-bottom: 5rem;
+}
+
+.peptalk {
+    color: white;
+    padding-left: 2rem;
+    padding-bottom: 4rem;
+    max-width: 100%;
+}
+
+.peptalk p {
+    color: white;
+    text-align: left;
+}
+
+/* Portfolio Section */
+.portfolio {
+    color: white;
+}
+
+.portfolio p {
+    color: lightgray;
+}
+
+/* Buttons */
 .btn {
     display: inline-block;
     padding: 0.5rem 1rem;
@@ -98,69 +121,53 @@ body {
     background-color: #555;
 }
 
-.cvword{
-    justify-content: center;
+/* Responsive Design */
+@media (max-width: 768px) {
+    header nav ul li {
+        margin: 5px;
+    }
+
+    .contact {
+        padding: 1rem;
+    }
+
+    .aboutme, .peptalk {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .peptalk {
+        max-width: 100%;
+        padding-left: 0;
+        text-align: center;
+    }
 }
 
-/* other sites */
+@media (max-width: 480px) {
+    header nav ul {
+        flex-direction: column;
+    }
 
-#home {
-    color: white;
-}
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
 
-.contact {
-    padding-left: 2rem;
-    color: white;
-}
+    .photo, .aboutme {
+        max-width: 100%;
+    }
 
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem; /* Adjust the space between the photo and the text */
-}
+    .contact {
+        padding: 1rem;
+        text-align: center;
+    }
 
-.photo {
-    text-align: center;
-    padding-bottom: 2rem;
-}
+    .peptalk {
+        padding: 0;
+        text-align: center;
+    }
 
-.photo img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-.aboutme_uvod {
-    color: white;
-}
-
-.aboutme {
-    color: white;
-    max-width: 20rem; /* Adjust the max width as needed */
-    padding-bottom: 5rem;
-}
-
-.peptalk {
-    color: white;
-    padding-left: 25rem;
-    padding-bottom: 4rem;
-    max-width: 40rem;
-}
-
-.peptalk p {
-    color: white;
-    text-align: left;
-}
-
-.peptalk a {
-    color: greenyellow;
-}
-
-.portfolio {
-    color: white;
-}
-
-.portfolio p {
-    color: lightgray;
+    .portfolio p {
+        font-size: 0.9rem;
+    }
 }
