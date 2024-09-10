@@ -94,7 +94,7 @@ footer p {
     border-radius: 8px;
 }
 
-.aboutme {
+.aboutme, .portfolio {
     background-color: rgba(0, 0, 0, 0.7); /* Dark background with transparency */
     color: white;
     max-width: 40rem; /* Adjust the width for better readability */
