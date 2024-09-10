@@ -96,16 +96,25 @@ footer p {
 }
 
 .aboutme {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark background with transparency */
     color: white;
-    max-width: 20rem;
-    padding-bottom: 5rem;
+    max-width: 40rem; /* Adjust the width for better readability */
+    padding: 1.5rem;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    margin: 0 auto; /* Center the container */
+    text-align: left;
 }
 
 .peptalk {
+    background-color: rgba(0, 0, 0, 0.7); /* Same dark background */
     color: white;
-    padding-left: 2rem;
-    padding-bottom: 4rem;
-    max-width: 100%;
+    max-width: 50rem;
+    padding: 1.5rem;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 2rem auto;
+    text-align: left;
 }
 
 .peptalk p {
@@ -148,6 +157,12 @@ footer p {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+
+    .aboutme, .peptalk {
+        max-width: 90%; /* Make the container narrower on smaller screens */
+        padding: 1rem;
+    }
+
     header nav ul li {
         margin: 5px;
     }
@@ -170,6 +185,12 @@ footer p {
 }
 
 @media (max-width: 480px) {
+
+    .aboutme, .peptalk {
+        max-width: 100%;
+        padding: 1rem;
+    }
+
     header nav ul {
         flex-direction: column;
     }
