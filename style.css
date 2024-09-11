@@ -75,6 +75,11 @@ footer p {
     color: white;
 }
 
+/*headings in dark gray*/
+main h1, h3{
+    color: #ffffff;
+}
+
 /* Flexbox Layout for Profile (About Me Section) */
 .container {
     display: flex;
