@@ -75,11 +75,8 @@ footer p {
     color: white;
 }
 
-/*headings in gray*/
-main h1, h3{
-    color: #ffffff;
-}
-.home section{
+/*text in white*/
+main h1, h3, p{
     color: #ffffff;
 }
 
