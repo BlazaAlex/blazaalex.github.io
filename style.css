@@ -94,10 +94,10 @@ main h1, h3{
 .photo {
     text-align: center;
     padding: 2rem;
+    max-width: 25%;
 }
 
 .photo img {
-    max-width: 100%;
     height: auto;
     border-radius: 8px;
 }
