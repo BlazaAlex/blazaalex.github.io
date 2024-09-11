@@ -79,6 +79,9 @@ footer p {
 main h1, h3{
     color: #ffffff;
 }
+.home p{
+    color: #ffffff;
+}
 
 /* Flexbox Layout for Profile (About Me Section) */
 .container {
