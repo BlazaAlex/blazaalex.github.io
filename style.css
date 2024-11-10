@@ -46,6 +46,7 @@ header nav ul li {
 
 header nav ul li a {
     color: darkorange;
+    font-size: 1.5vw;
     text-decoration: none;
 }
 
