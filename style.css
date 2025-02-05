@@ -221,6 +221,10 @@ main h1, h3, p {
         margin: 5px;
     }
 
+    header nav ul li a {
+        font-size: 2.5vw;
+    }
+
     .contact {
         padding: 1rem;
     }
@@ -248,9 +252,17 @@ main h1, h3, p {
         flex-direction: column;
     }
 
+    header nav ul li a {
+        font-size: 4.5vw;
+    }
+
     .container {
         flex-direction: column;
         text-align: center;
+    }
+
+    .cv-container iframe {
+        max-height: 55vh;
     }
 
     .photo, .aboutme {
