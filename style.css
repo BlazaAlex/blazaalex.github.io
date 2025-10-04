@@ -11,7 +11,7 @@ main {
 }
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('picodeTeide.jpg') no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('picodeTeide.jpg') no-repeat center left fixed;
     background-size: cover; /* Ensures the background covers the whole screen without repeating */
     font-family: Jost, sans-serif;
     line-height: 1.6;
@@ -237,7 +237,7 @@ main h1, h3, p {
 @media (max-width: 600px) {
     body {
         background-size: cover; /* Adjusts the background size for smaller screens to prevent repeating */
-        background-position: top center; /* Keeps the image centered but closer to the top */
+        background-position: left; /* Keeps the image centered but closer to the top */
     }
 }
 
