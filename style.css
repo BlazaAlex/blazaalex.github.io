@@ -273,7 +273,7 @@ main h1, h3, p {
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 414px) {
 
     .aboutme, .peptalk {
         max-width: 100%;
